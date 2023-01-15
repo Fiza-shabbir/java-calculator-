@@ -6,7 +6,7 @@ public class main {
          Scanner input = new Scanner(System.in);
         String ans;
         System.out.println("|Calculator choices| \n|1-Basic calculator|\n|2-Zakat calculator|\n|3-Physics calculator|\n|4-Scientific calculator|");
-        System.out.println("|Which calculator you want to use ? : |");
+        System.out.println("|Which calculator do you want to use ? : |");
         String calc_type = input.nextLine();
         if(calc_type.equalsIgnoreCase("zakat calculator"))
         {
